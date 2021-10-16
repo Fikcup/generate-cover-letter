@@ -37,7 +37,7 @@ const questions = [
 ];
 
 function writeToFile(fileName, data) {
-    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+    return fs.writeFileSync(path.join(process.cwd(), 'dist', fileName), data);
 }
 
 function init() {
