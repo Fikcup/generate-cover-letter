@@ -14,7 +14,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Cover Letter Screenshot](./assets/coverletter.PNG)
+![Cover Letter Screenshot](./assets/coverletter.PNG)<br />
+Project Link: [Cover Letter Walkthrough](https://youtu.be/mMQ57d9Iqn8)
 
 ### Built With
 
