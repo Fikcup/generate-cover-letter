@@ -6,6 +6,10 @@
   "main": "server.js",  "scripts": {
     "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fikcup/generate-cover-letter.git"
+  },
   "dependencies": {
     "inquirer": "^8.2.0",
     "moment": "^2.29.1"
