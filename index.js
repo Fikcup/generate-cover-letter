@@ -121,6 +121,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
         .then((responseData) => {
+            console.log('Generating cover letter...');
             writeToFile('CoverLetter.txt', generator({ ...responseData }));
         })
         .catch((err) => {
