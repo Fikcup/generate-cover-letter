@@ -10,8 +10,10 @@ const questions = [
         message: 'What is your full name?',
         validate: (input) => {
             if (input === '') {
-                return('Please include your name.')
+                return('Please include your name.');
             }
+
+            return true;
         }
     },
     {
@@ -20,8 +22,10 @@ const questions = [
         message: 'What is your zipcode?',
         validate: (input) => {
             if (input === '') {
-                return('Please include your zipcode.')
+                return('Please include your zipcode.');
             }
+
+            return true;
         }
     },
     {
@@ -30,8 +34,10 @@ const questions = [
         message: 'What is your phone number?',
         validate: (input) => {
             if (input === '') {
-                return('Please include your phone number.')
+                return('Please include your phone number.');
             }
+
+            return true;
         }
     },
     {
@@ -40,8 +46,10 @@ const questions = [
         message: 'What is your email?',
         validate: (input) => {
             if (input === '') {
-                return('Please include your email.')
+                return('Please include your email.');
             }
+
+            return true;
         }
     },
     {
@@ -50,18 +58,10 @@ const questions = [
         message: 'What is the job title?',
         validate: (input) => {
             if (input === '') {
-                return('Please include the job title.')
+                return('Please include the job title.');
             }
-        }
-    },
-    {
-        type: 'input',
-        name: 'companyname',
-        message: 'What is the company\'s\ name?',
-        validate: (input) => {
-            if (input === '') {
-                return('Please include the company name.')
-            }
+
+            return true;
         }
     },
 ];
