@@ -1,5 +1,9 @@
 {
-  "scripts": {
+  "name": "cover-letter-generator",
+  "author": "Rhys Wright",
+  "version": "1.0.0",
+  "description": "An inquirer nodeJS application that creates a cover letter",
+  "main": "server.js",  "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
