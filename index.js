@@ -1,8 +1,10 @@
+// declare dependencies
 const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
 const generator = require('./utils/generateCL');
 
+// array of questions for Inquirer
 const questions = [
     {
         type: 'input',
@@ -114,10 +116,12 @@ const questions = [
     },
 ];
 
+// map input into the text file
 function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), 'dist', fileName), data);
 }
 
+// initialize function on start
 function init() {
     inquirer.prompt(questions)
         .then((responseData) => {

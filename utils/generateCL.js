@@ -1,5 +1,6 @@
 const moment = require('moment');
 
+// maps input into text format
 const generate = (responseData) => {
     return `
     ${responseData.yourname}
