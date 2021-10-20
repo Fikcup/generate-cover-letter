@@ -3,8 +3,10 @@
   "author": "Rhys Wright",
   "version": "1.0.0",
   "description": "An inquirer nodeJS application that creates a cover letter",
-  "main": "server.js",  "scripts": {
-    "start": "node index.js"
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -13,5 +15,8 @@
   "dependencies": {
     "inquirer": "^8.2.0",
     "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
   }
 }
